@@ -1,0 +1,23 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+  background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Blank_globe.svg/2000px-Blank_globe.svg.png") fixed center top no-repeat;
+  background-size:1600px 1600px;
+ 
+}
+#random{text-align:center;
+  width:100px;
+color:black;
+background:LightGray;}
+a, a:hover{
+ text-decoration:none; 
+}
+#title{width:250px;}
+h1{font-size:3em;text-align:center;}
+.pages{
+  background:Lavender;
+  margin:10px;
+  padding:20px;
+  color:DarkSlateGray;
+}
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Tic Tac Toe</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Lato:300,400,700'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    	<h1>Tic Tac Toe</h1>	
+<div class="container">
+	
+
+	<div class="marker_select">
+	Choice your Marker:
+	<input type="radio" value="X" name="player"><label>X</label>
+	<input type="radio" value="O" name="player"><label>O</label><br>
+<span class="comp_wins">COMP: <span>0</span></span><span class="play_wins">PLYR: <span>0</span></span>
+	</div>
+
+<table cellpadding="0" cellspacing="0">
+	<tr>
+		<td class ="tile" id="1"></td>
+		<td class ="tile" id="2"></td><td class ="tile" id="3"></td>
+	</tr>
+	<tr>
+		<td class ="tile" id="4"></td>
+		<td class ="tile" id="5"></td>
+		<td class ="tile" id="6"></td>
+	</tr>
+	<tr>
+		<td class ="tile" id="7"></td>
+		<td class ="tile" id="8"></td>
+		<td class ="tile" id="9"></td>
+	</tr>
+</table>
+<p>Player's turn</p>
+<button class="start">New Game</button>
+	</div>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>

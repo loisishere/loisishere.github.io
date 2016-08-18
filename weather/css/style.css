@@ -1,0 +1,49 @@
+#location{
+  margin: 0 auto;
+  width:100%;
+  font-size:7rem;
+  text-align:center;
+  font-weight:100;
+}
+.icon{
+  text-align:center;
+  height:100%;
+  position: relative;
+  font-weight:400;
+float:right;
+  left: -44%;
+  margin-top:-30px;
+}
+#descr{font-size:.5em;
+  font-weight:400;
+  width:100%;
+  height:75px;
+  postion:absolute;
+  margin-top:100px;
+  line-height:1px;
+  clear:both;
+}
+body{
+  margin: 0 auto;
+  background: MidnightBlue;
+  font-family: 'Raleway', sans-serif;
+}
+.night{
+  filter:invert(100%);
+  -webkit-filter:invert(100%);
+}
+#temp:hover,a:hover{
+  color:yellow;
+  text-decoration:none;
+}
+#temp, a{
+  font-size:100%;
+  height:100px;
+  color:white;
+  cursor:pointer;
+}
+img{
+  width:256px;
+  height:256px;
+  float:left;
+}

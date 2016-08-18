@@ -1,0 +1,46 @@
+body{
+  background:tomato;
+  font-family:"Open Sans", san-serif;
+  font-size:10rem;
+  display: inline;
+  text-align: center;
+  color:white;
+}
+.container{
+	width:95%;
+}
+#counter{
+  font-weight:300;
+  font-size:100%;
+}
+.study, .break{
+font-size: 40%;
+width:20%;
+}
+.study{
+	float:left;
+}
+.break{
+	float:right;
+}
+.add, .subtract{
+	width:50px;
+	height:auto;
+	border:none;
+	font-size: 50%;
+	background: darkRed;
+	color: white;
+}
+.startPomodoro{
+  border:none;
+  background: red;
+  font-size:25%;  
+}
+.mins{
+	width: 50px;
+	font-size: 50%;
+}
+.disabled{
+	background: darkGray;
+	color: lightGray;
+}

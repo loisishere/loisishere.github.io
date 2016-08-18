@@ -1,0 +1,41 @@
+a{
+  text-decoration:none;
+  color:Black;
+  letter-spacing:30px; 
+}
+#btn{
+  text-align:center;
+  display:inline;
+  margin-top:10px;
+  width:100%;
+  float:right;
+}
+a:hover{
+  color:DarkSlateGray;
+}
+
+body{
+  font-family: 'Bad Script', cursive;
+  margin:0px;
+  background: url("https://images.unsplash.com/photo-1467173572719-f14b9fb86e5f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=b734e103303c5965225682077ee72f86")no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0 auto;
+}
+#quote{
+  font-size:2em;
+  color:white;
+}
+#author{font-size:1.15em;
+color:GhostWhite;
+}
+#background{
+  background-color:black;
+  width:100%;
+  height:100px;
+  opacity:.75;
+  text-align:center;
+  margin-top:20px;
+}

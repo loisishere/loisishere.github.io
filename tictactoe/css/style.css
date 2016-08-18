@@ -1,0 +1,66 @@
+body{
+	background: #193c4a;
+	color:#dcdfb7;
+	font-family: 'Lato', sans-serif;
+  font-size:5rem;
+	text-align:center;
+}
+h1{
+  font-size:97%;
+  font-weight:300;
+}
+.container{
+  font-size:45%;
+	height: auto;
+	width: 300px;
+	margin: 0px auto;
+}
+.tile{
+	width:100px;
+	height:100px;
+	border: 3px azure solid;
+}
+td:first-child{
+	border-left:none;
+}
+td:last-child{
+	border-right: none;
+}
+tr:first-child > td{
+	border-top: none;
+}
+
+tr:last-child > td{
+	border-bottom: none;
+}
+table{
+	height: auto;
+	position: relative;
+	width: 100%;
+}
+.marker_select{
+  font-size:50%;
+	height: 80px;
+	width: 100%;
+	position: relative;
+	vertical-align: middle;
+	border: white 1px solid;
+	margin: 50px;
+}
+.marker_select > span{
+	line-height: 80px;
+}
+input:disabled{
+	background: blue;
+}
+.marker_select > span{
+	font-weight: bold;
+}
+.comp_wins{
+	float:left;
+	padding-left: 15px;
+}
+.play_wins{
+	float:right;
+	padding-right: 15px;
+}
