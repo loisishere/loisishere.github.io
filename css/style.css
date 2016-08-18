@@ -1,10 +1,14 @@
+html{
+  height: 100%;
+}
 body{
   font-size:15rem;
   margin: 0 auto;
   font-family: 'Lato', sans-serif;
   text-align:center;
-  background:#333f44;
-  color:mintCream;
+  background:Cornsilk;
+  
+  height:100%;
 }
 h1{
   font-weight:300;
@@ -16,42 +20,54 @@ h1{
   margin-bottom:2%;
   font-size:40%;
 }
-.certificate p{
-  font-size:5%;
+.col-md-4 h2{
+  border-bottom:1px solid slateGray;
+  font-weight:300;
 }
-.certificate{
-  padding-top:10%;
-  top:50%;
-  border-top:1px solid slateGray;
-  margin: 0 auto;
-  width:100%;
-  height:500px;
-  display:flex;
-margin-bottom:5%;
+.col-md-4 p{
+  font-size:10%;
 }
-.projects{
-  border-top:1px solid slateGray;
-  margin: 0 auto;
-  width:100%;
+.col-md-4{
+  color:mintCream;
+    top:0;
+    bottom:0;
+  background:#060d13;
+padding-bottom:100%;
+  height:100%;
+  float:left;
+  
 }
 .prj{
+  color:slateGray;
   width:100%;
   height:auto;
   font-size:10%;
-  block;
-  border:solid black 1px;
+  border:solid white 1px;
+  margin-bottom:7px;
+  border-radius:25px;
+  background:LightBlue;
+  padding-bottom:5px;
+}
+.prj:hover{
+  background:LightSteelBlue;
+}
+a{
+  color:mintCream;
+  text-decoration:none;
+}
+.prj a{
+  color:slateGray;
+  text-decoration:none;
 }
 .title{
   font-size:10%;
- display:inline;
-  width:200px;
-  height:auto;
+ display:block;
   float:left;
-  padding:5px;
+  margin-bottom:10px;
 }
 .thumbnail{
-  width: 75%;
-  height: 75%;
+  width: 25%;
+  height: 25%;
     margin:auto;
 }
 .gallery{
