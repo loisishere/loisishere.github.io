@@ -37,6 +37,10 @@ padding-bottom:100%;
   float:left;
   
 }
+li{
+  display: inline;
+  text-decoration: none;
+}
 .prj{
   color:slateGray;
   width:100%;
